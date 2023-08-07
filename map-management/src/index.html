@@ -6,7 +6,10 @@
 
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+  <script>
+    window.api.send("toMain", "some data");
+    window.api.receive("fromMain", (data) => console.log(data));
+  </script>
+  <div></div>
   </body>
 </html>

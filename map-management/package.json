@@ -40,6 +40,9 @@
     "typescript": "~4.5.4"
   },
   "dependencies": {
+    "@loaders.gl/core": "^3.4.9",
+    "@loaders.gl/las": "^3.4.9",
+    "deck.gl": "^8.9.23",
     "electron-squirrel-startup": "^1.0.0"
   }
 }
